@@ -1,0 +1,11 @@
+{{ define "main" }}
+<main>
+
+  {{ range .Pages.ByWeight }}
+	<section class="image-{{ .Weight }}">
+    {{ .Content }}
+	</section>
+  {{ end }}
+
+</main>
+{{ end }}

@@ -1,0 +1,21 @@
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<title>{{ .Site.Title }}, par {{ .Site.Author.name }}</title>
+<meta name="description" content="{{ .Site.Params.Description }}">
+<meta name="author" content="{{ .Site.Author.Name }}">
+{{- hugo.Generator }}
+
+<link rel="stylesheet" type="text/css" href="{{ "css/interface-0.1.css" | absURL }}" />
+<link rel="stylesheet" type="text/css" href="{{ "css/style.css" | absURL }}?rnd={{ now.Unix }}" />
+{{ range .Site.Params.customCSS -}}
+<link rel="stylesheet" type="text/css" href="{{ . | absURL }}?rnd={{ now.Unix }}">
+{{- end }}
+
+
+<script type="text/javascript" src="js/paged.polyfill.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script src="js/marginNotes.js" type="text/javascript"></script>
+
+
