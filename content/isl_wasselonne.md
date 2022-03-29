@@ -78,7 +78,6 @@ Exposition et rencontres plus informelles et spontanées autour des projets
 ### Fork_Wasselonne
 *Timothé Jeanne*
 *timothe.jeanne.pro@gmail.com*
-*07.83.84.48.75*
 
 ![](media/cairn.jpg)
 
@@ -100,9 +99,8 @@ Pour ce projet je recherche :
 
 {{< article >}}
 ### Allez-y à pied !
-*Agnès Puyo*
-*agnespuyo@gmail.com*
-*06.62.96.35.43*
+*Timothé Jeanne*
+*timothe.jeanne.pro@gmail.com*
 
 Ce projet invite les habitants de Wasselonne à poser un autre regard sur les rues de leur ville en les arpentant à pied. 
 Lorsque nous marchons, nous répétons une habitude ancrée dans nos mœurs et à travers cela, nous laissons en arrière une réelle expérience qui émane du déplacement à pied, des ressentis et des sensations à travers lui. Le projet Allez-y à pied vise à : 
@@ -119,9 +117,8 @@ Pour ce projet, je recherche :
 
 {{< article >}}
 ### Relations à Alzheimer. De terres inconnues à terrain connu.
-*Coline Blanckaert*
-*coline.blanckaert15@gmail.com*
-*0760822922* 
+*Timothé Jeanne*
+*timothe.jeanne.pro@gmail.com*
 
 Ce projet vise à questionner et revaloriser le lien relationnel dans la maladie d'Alzheimer. Les enjeux du soin face à une maladie incurable ne sont plus ancré dans la guérison, mais dans l’action de prendre soin, pour soulager et apaiser les effets de la maladie. 
 Une réflexion autour du « prendre soin » que je souhaite investir cette année à travers la conception d’un objet du quotidien pour accompagner l’évolution de la maladie et rétablir des relations entre le patient, les soignants et les proches. 
@@ -134,9 +131,8 @@ Pour ce projet, je recherche:
 
 {{< article >}}
 ### Réaménager la cour du château 
-*Alice Rochette*
-*a.alicerochette@gmail.com*
-*0604097559*
+*Timothé Jeanne*
+*timothe.jeanne.pro@gmail.com*
 
 L'ambition de réaménager la cour du château n'est pas un terrain de jeu facile. Après avoir analysé le terrain et sondé une partie des usagers que sont les parents d'élèves. J'essaie d'élaborer une stratégie pour 
 [](media/cairn.jpg)
@@ -144,9 +140,8 @@ L'ambition de réaménager la cour du château n'est pas un terrain de jeu facil
 
 {{< article >}}
 ### Manger le territoire
-*Thomas Ringot*
-*ringot.thomas1@gmail.com*
-*0602110141* 
+*Timothé Jeanne*
+*timothe.jeanne.pro@gmail.com*
 
 Ce projet vise à revaloriser l'image touristique de la ville de Wasselonne par le biais du territoire qui l'entoure. La variété de terrain, qui fait le paysage de la ville, regroupe une grande richesse de ressources naturelles et locales avec lesquelles j'aimerais travailler. 
 
@@ -161,9 +156,8 @@ Pour ce projet, je recherche:
 
 {{< article >}}
 ### Bande dessinée - faire et défaire les frontières par le dessin
-*Danaé Guillard*
-*danae.guillard@gmail.com*
-*0650657399*
+*Timothé Jeanne*
+*timothe.jeanne.pro@gmail.com*
 
 Ce projet vise à redéfinir l'usage de la frontière entre espaces publics et privés, ou deux espaces privés et questionne en ce sens la notion de propriété. Sous la forme de d'ateliers performatifs et/ou participatifs, il invite les habitantes et habitants de Wasselonne à sortir de chez eux pour prendre possession de cet espace frontière qui d'ordinaire engendre des conflits et pourrait, à l'avenir, devenir un lieu des possibles.
 
@@ -176,9 +170,8 @@ Pour ce projet, je recherche:
 
 {{< article >}}
 ### Regards
-*Laurianne GERVASONI*
-*laurianne.gervasoni@gmail.com*
-*0629854092*
+*Timothé Jeanne*
+*timothe.jeanne.pro@gmail.com*
 
 En sociologie, le Regard est la manière dont un individu ou un groupe d’individus (le « regardant ») perçoit et se représente son environnement et en particulier soi-même et les autres individus. Le point d'entrée du projet réside dans le fait de poser un regard différent sur la ville de Wasselonne, pour engager de nouvelles manières de s'approprier les rues, ensemble. Le projet a en réalité vocation à créer des prétextes à la rencontre dans l'espace public, en mettant en évidence ce qui fait identité commune. Le patrimoine historique, l'appréhension personnelle de l'espace public, les objets insolites, les histoires individuelles sont autant de petites aspérités qui font le caractère de Wasselonne et qui, une fois réunies, font lien. 
 
