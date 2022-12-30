@@ -1,12 +1,8 @@
 languageCode: fr
 languageName: Français
 defaultContentLanguage: fr
-title: Fork_Wasselonne
-theme: paged.js-book
+title: Rapport d'activité
+theme: padeditions
 author:
-  name: Timothé Jeanne
-markup:
-  goldmark:
-    renderer:
-      hardWraps: true
-      unsafe: true
+  name: La Myne
+  homepage: https://lamyne.org

@@ -1,0 +1,26 @@
+{{ define "main" }}
+<main>
+
+<!-- Première page 
+  {{- partial "firstpage.html" . -}}
+  Uncomment pour ajouter une première page
+-->
+
+<!-- Contenu -->
+  {{ range .Pages }}
+  <section class="chapitre">
+    {{ partial "content.html" .Content }}
+  </section>
+  {{ end }}
+
+<!-- Page blanche-->
+<div class="blank"></div>
+
+
+<!-- Dernière page
+  {{- partial "backpage.html" . -}}
+  Uncomment pour ajouter une page de fin
+-->
+
+</main>
+{{ end }}

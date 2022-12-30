@@ -1,0 +1,8 @@
+name = ""
+license = "GPL-3.0-only"
+description = "Hugo theme based on Paged.js to create PDF in the browser"
+tags = ["hugo", "hugo-theme", "paged-js"]
+[author]
+    Organisation = "la Myne"
+    Contributeur = "Timothé Jeanne"
+

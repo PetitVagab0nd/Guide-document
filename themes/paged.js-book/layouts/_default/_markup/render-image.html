@@ -1,4 +1,0 @@
-<figure {{ if in .Destination "@double-page" }}class="double-page"{{ end }}>
-  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" />
-  <figcaption>{{ .Text | markdownify }}{{ with .Title }} <span class="credits">{{ . }}</span>{{ end }}</figcaption>
-</figure>

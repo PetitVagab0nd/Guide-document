@@ -1,0 +1,324 @@
+/* --- C'EST ICI QUE CE CODE LA MISE EN PAGE DU DOCUMENT --- */
+
+@media print {
+
+/* FORMATAGE DU DOCUMENT ------------- */
+
+    @page {
+        /* marks: crop; */  /* <-------------  Uncomment pour voir les traits de coupe */
+        size: 210mm 297mm;
+        margin-top: 10mm;
+        margin-bottom: 10mm;
+        margin-left: 17mm;
+        margin-right: 17mm;
+        bleed: 2.5mm;
+        line-height: 1;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 0.95em;
+        text-align :start;
+        background-color: var(--bckcolor);
+         color: var(--txt);
+         @bottom-left-corner {
+            text-align: center;
+            content: counter(page);
+            width: 20px;
+        }
+    }  
+
+    @page:left{    
+    }
+
+    @page:right{
+    }
+
+    .blank{ /* Page blanche lors du saut de page */
+        page: blank;
+        break-before: page;
+    }
+    @page:blank {
+        @bottom-right-corner { content: none; }
+        @bottom-center { content: none; }
+        @top-left-corner { content: none; }
+        @top-right-corner { content: none; }
+        @top-center { content: none; }
+    }
+
+
+/* PARAMETRAGE GLOBAL ------------- */
+
+    /* LES COULEURS */
+    html{
+        --color_theme: #FE722A; 
+        --color_second: #3497FB;
+        --color_third: #D2FA65;
+        --color_light: #CFEDFD;
+        --color_gray: lightgray;
+        --color_white:white;
+        --color_black: #181818;
+        --bckcolor:var(--color_white);
+        --txt: var(--color_black);
+        --txt_2: var(--color_gray);
+        --txt_mark: var(--color_theme);
+    }
+
+    /* LA TYPO */
+    @font-face {
+        font-family: "version";
+        src: url("/font/Version-bold.ttf") format("opentype");
+    }
+
+
+/* MISE EN PAGE TEXTUELLE ---------- */
+
+    /* LES TITRES */
+    h1{ /* <- le titre du document, titre de niveau 1 > '# Titre' */
+        margin-top: 8em;
+        font-weight: bold;
+        font-size: 3em;
+        font-family: "version";
+        position: relative;
+    }
+
+    h1>em{  /* <- le sous-titre en italic > '# *blabla*' */
+        font-weight: lighter;
+        font-size: .9em;
+    }
+    h1>em::after{ /* ... et le soulignage du titre */
+        content: "";
+        width: 50%;
+        position: absolute;
+        bottom: -1em;
+        left: 0;
+        border-bottom: 5px solid var(--color_theme);
+    }
+
+    h1>strong{ /* <- les marqueurs des chapitres à ne pas afficher, titre de niveau 1 en gras > '# **CHAPITRE 1**' */
+        display: none;
+    }
+
+    h2 { /* <- Les titres de niveau 2 > '## Titre' */
+        font-family: "version";
+        font-size: 2.5em;
+        font-weight: 600;
+        width: fit-content;
+        padding-bottom: 0.5em;
+        position: relative;
+    }
+    h2::after{ /* ... et le soulignage des titres de niveau 2 */
+        content: "";
+        width: 50%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-bottom: 5px solid var(--color_second);
+    }
+
+    h3 { /* <- Les titres de niveau 3 > '### Titre' */ 
+        font-family: "version";
+        font-size: 2em;
+        font-weight: bolder;
+        color: var(--color_theme);
+    }
+
+    h4 { /* <- Les titres de niveau 4 > '#### Titre' */
+        font-family: "version";
+        font-size: 1.4em;
+        color: var(--color_second);
+    }
+
+    /* LE TEXTE */
+    p{ /* paramètre par défaut */
+        line-height: 1.5em;
+    }
+
+    strong{ /* <- Le texte en gras > '**mot en gras**' */ 
+        font-family: "version";
+        font-weight:bold;
+        break-inside:avoid;
+    }
+
+    a{ /* <- Les liens > '[mot cliquable](https://liens.fr)' */
+        text-decoration: underline;
+        color: inherit;
+    }
+    
+    blockquote{ /* <- Les citations > '> blabla' */
+        color: var(--color_theme);
+        font-size: 1.1em;
+        break-inside: avoid;
+        position: relative;
+        width: 85%;
+        text-align: justify;
+        margin-top: 2.5em;
+    }
+    blockquote em{ /* <- L'auteur d'une citation > '> *M.Buret*' */
+        font-size: 0.9em;
+        font-weight: 200;
+        font-style: normal;
+    }
+    blockquote::before{ /* Les guillemets pour encadrer une citation, à gauche */
+        content: '“';
+        margin: 10px;
+        font-size: 5em;
+        position: absolute;
+        top: -0.2em;
+        left: -0.6em;
+    }
+    blockquote::after{ /* Les guillemets pour encadrer une citation, à droite */
+        content: '”';
+        margin: 10px;
+        font-size: 5em;
+        position: absolute;
+        top: -0.4em;
+        right: -0.6em;
+    }
+
+    ul{ /* <- Les listes, '- bla -bla -bla' */ 
+        margin-left:1em;
+    }
+    li{
+        margin:0;
+        margin-bottom: 0.5em;
+        line-height: 1.5em;
+    }
+    li::marker{
+        color: inherit;
+    }
+
+    
+/* ELEMENTS STRUCTURELS NON TEXTUELS ---------- */
+    
+    /* LES ENCADRES */
+    .info, .narration{ /* <- Les encadrés bleus, contenu narratif > ':::info' */
+        padding: 1em;
+        width: 100%;
+        border: solid var(--color_black) 0.5px;
+        background-color: var(--color_light);
+    }
+    .narration img, img[alt="float"]{ /* Les images dans ces encadrés bleus, placées à gauche */
+        float: left;
+        width: 33%;
+        padding-right: 1em;
+        margin-left: 0 !important;
+    }
+
+    .focus>h4{ /* <- Les encadrés verts, 'FOCUS' > ':::success' */
+        background-color: var(--color_theme);
+    }
+
+    .plusloin>h4{ /* <- Les encadrés organges, '+ ALLER PLUS LOIN' > ':::warning' */
+        background-color: var(--color_third);
+    }
+    .focus, .plusloin{ /* La bordure sur les encadrés vert (':::success') et organge (':::warning') */
+        border: solid var(--color_black) 0.5px;
+        position: relative;
+        padding: 1.5em 1em 1em 1em;
+        break-inside: avoid;
+        margin-top: 2.5em;
+    }
+    .focus>h4, .plusloin>h4{ /* Le rectangle en haut des encadrés vert (':::success') et organge (':::warning') */
+        display: block;
+        font-family: "version";
+        border: solid 0.1px var(--color_black);
+        position: absolute;
+        padding: 0.5em 1em;
+        top: -2.5em;
+        left: 1em;
+        font-size: 1em;
+        color: var(--color_black);
+    }
+
+    .danger, .invisible{ /* <- Les encadrés rouges à ne pas afficher > ':::danger' */
+        display: none;
+    }
+
+
+    /* LES SAUTS DE PAGE */
+    h1{ /* Revenir à une nouvelle page pour chaque titre de niveau 1 ('#')*/
+        break-before: page;
+    }
+    h2{ /* Revenir à une nouvelle page pour chaque titre de niveau 2 ('##') */
+        break-before: left;
+    }
+    .break{ /* <- autres saut de page lorsqu'un paragraphe est coupé > ':x:' */
+        break-before: page;
+    }
+
+
+    /* img[alt="chapitre"]{
+        break-after:right;
+    }
+    
+    .chapitre{
+        break-before: left;
+    }*/
+
+
+/* LES IMAGES ------------- */
+
+    /* GENERAL */
+    img{ /* <- '![](image.jpeg' */
+        object-fit: cover;
+        overflow: hidden;
+        width: 90%;
+        margin-left: 5%;
+    }
+    figure{
+        margin-left: 0;
+    }
+
+    /* LA PALCE DES IAMGES */
+    img[alt~="nofloat"]{ /* <- Les images centrées, '![nofloat](image.jpeg) */
+        float: none;
+    }
+
+    img[alt~="left"]{ /* <- Les images placées à gauche, '![left](image.jpeg) */ 
+        float: left;
+        margin: 0% !important;
+        margin-right: 2em !important;
+    }
+
+    img[alt~="right"]{ /* <- Les images placés à droite, '![right](image.jpeg) */
+        float: right;
+        margin: 0% !important;
+        margin-left: 2em !important;
+    }
+
+    /* LA TAILLE DES IMAGES */
+    img[alt~="100"]{ /* <- Les images pleines pages, '![100](image.jpeg) */
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    /* LA TAILLE DES IMAGES */
+    img[alt~="50"]{ /* <- Les images moitié de pages, '![50](image.jpeg) */
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    img[alt~="66"]{ /* <- Les images 2/3 de pages, '![66](image.jpeg) */
+        width: 66%;
+        margin-left: 17%;
+    }
+
+    img[alt~="33"]{ /* <- Les images 1/3 de pages, '![33](image.jpeg) */
+        width: 33%;
+        margin-left: 33.5%;
+    }
+
+    img[alt~="17"]{ /* <- Les images 1/6 de pages, '![17](image.jpeg) */
+        width: 16.6%;
+        margin-left: 41.7%;
+    }
+
+    img[alt="chapitre"]{ /* <- Les ilustrations au début des chapitres > '![chapitre](illustration.jpeg)' */
+        position: absolute;
+        width: 122%;
+        margin: 0;
+        top: -13mm;
+        left: -20mm;
+        }
+}
+
+
+
