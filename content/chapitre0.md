@@ -1,11 +1,24 @@
 # Anti-manuel du Tiers-Lieux <br> *Guide de porteur·se de projet en Région Centre - Val de Loire*
 
+[![hackmd-github-sync-badge](https://hackmd.io/3jhKdaA_RTKpACzPSYCvTw/badge)](https://hackmd.io/3jhKdaA_RTKpACzPSYCvTw)
+
 :::danger
 
 **L’Anti-manuel du Tiers Lieux** est un projet contributif ouvert à toutes et tous. Pour l'éditer vous pouvez passer en mode édition : **<i class="fa fa-edit fa-fw"></i>**/**<i class="fa fa-columns fa-fw"></i>**
 Si vous n'êtes pas à l'aise avec la syntaxe markdown, ce [tutoriel](https://pad.lamyne.org/utiliser-codimd) est à votre disposition.
 
 :::
+
+
+### Temoignage
+
+![/image/titre.png]
+
+cdecdqcq
+cqcqc
+
+-
+
 
 :::danger
 
