@@ -1,6 +1,8 @@
-# Anti-manuel du Tiers-Lieux <br> *Guide de porteur·se de projet en Région Centre - Val de Loire*
+#  du Tiers-Lieux <br> *Guide de porteur·se de projet en Région Centre - Val de Loire*
 
+:::danger
 [![hackmd-github-sync-badge](https://hackmd.io/3jhKdaA_RTKpACzPSYCvTw/badge)](https://hackmd.io/3jhKdaA_RTKpACzPSYCvTw)
+:::
 
 :::danger
 
