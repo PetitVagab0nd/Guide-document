@@ -1,4 +1,4 @@
-#  du Tiers-Lieux <br> *Guide de porteur·se de projet en Région Centre - Val de Loire*
+# Anti-manuel du Tiers-Lieux <br> *Guide de porteur·se de projet en Région Centre - Val de Loire*
 
 :::danger
 [![hackmd-github-sync-badge](https://hackmd.io/3jhKdaA_RTKpACzPSYCvTw/badge)](https://hackmd.io/3jhKdaA_RTKpACzPSYCvTw)
@@ -12,17 +12,11 @@ Si vous n'êtes pas à l'aise avec la syntaxe markdown, ce [tutoriel](https://pa
 :::
 
 
+:::danger
 ### Temoignage
 
 ![/image/titre.png]
 
-cdecdqcq
-cqcqc
-
--
-
-
-:::danger
 
 ## Je découvre
 *(page à remplir par le lieu)*
