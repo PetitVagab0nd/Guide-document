@@ -1,2 +1,3 @@
-# Anti-manuel
-Anti-Manuel collaboratif des Tiers-Lieux
+# Petit reccueil de pratique de documuentation
+Reccueil collaboratif des Tiers-Lieux (en Creuse)
+
